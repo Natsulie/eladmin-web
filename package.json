@@ -2,10 +2,10 @@
   "name": "eladmin-web",
   "version": "2.6.0",
   "description": "EL-ADMIN 前端源码",
-  "author": "Zheng Jie",
+  "author": "Natsu Lie",
   "license": "Apache-2.0",
   "scripts": {
-    "dev": "vue-cli-service serve",
+    "dev": "vue-cli-service serve --open",
     "build:prod": "vue-cli-service build",
     "build:stage": "vue-cli-service build --mode staging",
     "preview": "node build/index.js --preview",

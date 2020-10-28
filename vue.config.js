@@ -20,7 +20,8 @@ module.exports = {
   productionSourceMap: false,
   devServer: {
     port: port,
-    open: true,
+    // 改成false不会打开两个网页
+    open: false,
     overlay: {
       warnings: false,
       errors: true
